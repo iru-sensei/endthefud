@@ -1,0 +1,25 @@
+---
+---
+
+@import "jekyll-theme-hacker";
+$bitcoin_orange: #FF9900;
+  
+hr, header h1, h1, h2, h3, h4, h5, h6 {
+  color: $bitcoin_orange;
+}
+  
+ul li {
+  list-style-image: none;
+}
+
+header {
+  border-bottom: 1px dashed $bitcoin_orange; //header;
+}
+
+a {
+  text-shadow: none;
+}
+
+a:visited {
+  color: #b76ab7;
+}
